@@ -1,16 +1,44 @@
-# omakase README
+# OMAKASE
 
-## Working with Markdown
+OMAKASE starts with a clean flagship dark theme: `OMAKASE Dark`.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+It aims for a deep black workspace, low-noise chrome, and bright syntax accents that stay readable during long coding sessions.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Preview The Theme
 
-## For more information
+You can preview the theme locally with the built-in VS Code extension workflow:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Open this folder in Visual Studio Code.
+2. Press `F5`.
+3. A new **Extension Development Host** window will open.
+4. In that new window, run `Preferences: Color Theme`.
+5. Pick `OMAKASE Dark`.
 
-**Enjoy!**
+There is no build step for this theme right now. Editing the JSON and pressing `F5` again is enough to preview updates.
+
+## Create More Themes
+
+Each new theme follows the same simple pattern:
+
+1. Add a new JSON file inside [`themes`](/Users/luisfer/Documents/01 Projects/OMAKASE-Theme/themes).
+2. Register it in [`package.json`](/Users/luisfer/Documents/01 Projects/OMAKASE-Theme/package.json) under `contributes.themes`.
+3. Press `F5` and select the new theme in the Extension Development Host.
+
+Example contribution entry:
+
+```json
+{
+  "label": "OMAKASE Light",
+  "uiTheme": "vs",
+  "path": "./themes/OMAKASE-light-color-theme.json"
+}
+```
+
+## Current Direction
+
+`OMAKASE Dark` uses:
+
+- Near-black backgrounds for a focused dark mode foundation
+- Cool blue structure colors for navigation and editor chrome
+- Soft green strings, rose keywords, gold properties, and violet types
+- Brighter contrast on active surfaces so the UI still feels premium, not flat

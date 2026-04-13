@@ -1,7 +1,7 @@
 {
   "name": "omakase",
   "displayName": "OMAKASE",
-  "description": "A lot of flavours to try. Trust the chef.",
+  "description": "A curated VS Code theme collection. Trust the chef.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.115.0"
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "OMAKASE",
+        "label": "OMAKASE Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/OMAKASE-color-theme.json"
       }
