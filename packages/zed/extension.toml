@@ -1,0 +1,7 @@
+id = "omakase"
+name = "Omakase"
+version = "1.0.0"
+schema_version = 1
+authors = ["byLuisfer"]
+description = "A curated theme collection. Trust the chef."
+repository = "https://github.com/byluisfer/Omakase"
