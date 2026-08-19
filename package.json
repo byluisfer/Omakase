@@ -2,7 +2,7 @@
   "name": "omakase",
   "displayName": "Omakase",
   "description": "A curated VS Code theme collection. Trust the chef.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "byluisfer",
   "license": "MIT",
   "icon": "assets/icon.png",
